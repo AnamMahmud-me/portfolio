@@ -28,8 +28,10 @@ nav{
 span{
 	color: orange;
 }
+nav ul{
+    list-style-type: none;
+}
 nav ul li{
-	list-style-type: none;
 	display: inline-block;
 	padding: 10px  25px;
 }
@@ -102,6 +104,10 @@ h4{
 	box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
 	top: 6px;
 	right: 6px; 
+}
+.newslatter .ls:hover{
+    transform: scale(0.9);
+	transition: .3s;
 }
 
 .about{
@@ -196,6 +202,11 @@ button:hover{
 	margin: 25px 0px;
 	color: orange;
 
+}
+.card:hover{
+    transform: scale(1.1);
+	transition: .5s;
+    box-shadow: 0px 0px 5px #858585;
 }
 h5{
 	color: white;
